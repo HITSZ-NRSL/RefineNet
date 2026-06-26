@@ -105,7 +105,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
 
 ## Acknowledgement
 
-Thanks to [BP-Net](https://github.com/wyongji/BP-Net) for the propagation backbone and training framework.
+Thanks to [BP-Net](https://github.com/kakaxi314/BP-Net) for the propagation backbone and training framework.
 
 ## Citation
 
