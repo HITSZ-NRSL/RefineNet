@@ -37,7 +37,7 @@ Download datasets into `data/` (default configs already point here):
 
 | Dataset | Path | Link |
 |---------|------|------|
-| MatrixCity | `data/MatrixCity/big_city_npy/big_city/aerial/` | [Download](https://drive.google.com/drive/folders/14XAPHUjgcW9lSgWk761YnZ3tJlvf2eQS?usp=sharing) |
+| MatrixCity | `data/MatrixCity/big_city_npy/big_city/aerial/` | TBD |
 | AGAIRSIM v2 | `data/agairsim_v2/` | TBD |
 
 **MatrixCity** layout: `data/MatrixCity/big_city_npy/big_city/aerial/{train,test}/`
@@ -88,8 +88,6 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
 ```
 
 ## Results
-
-Full benchmarks: [`doc/results.md`](doc/results.md)
 
 | Model | RMSE ↓ | MAE ↓ | REL ↓ | D¹ ↑ |
 |-------|--------|-------|-------|------|
