@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project artifacts
+checkpoints/
+outputs/
+results/
+runs/
+*.pth
+*.pt
+*.ckpt
+.vscode/
+debug_*/
+plot_utils/
+datas/
+
+# Dataset files (keep directory structure only)
+data/*
+!data/.gitkeep
+!data/README.md

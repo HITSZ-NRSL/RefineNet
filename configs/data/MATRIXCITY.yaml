@@ -1,0 +1,16 @@
+train_sample_size: 51632
+test_sample_size: 8305
+height: 256
+width: 512
+
+trainset:
+  _target_: datasets.MATRIXCITY
+  npy_dir: "data/MatrixCity/big_city_npy/big_city/aerial"
+  split: 'train'
+
+testset:
+  _target_: datasets.MATRIXCITY
+  npy_dir: "data/MatrixCity/big_city_npy/big_city/aerial"
+  split: 'test'
+
+mul_factor: 1.0

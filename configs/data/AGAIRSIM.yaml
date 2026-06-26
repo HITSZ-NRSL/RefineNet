@@ -1,0 +1,16 @@
+train_sample_size: 38444
+test_sample_size: 4593
+height: 256
+width: 384
+
+trainset:
+  _target_: datasets.AGAIRSIM
+  root: "data/agairsim_v2"
+  split: 'train'
+
+testset:
+  _target_: datasets.AGAIRSIM
+  root: "data/agairsim_v2"
+  split: 'test'
+
+mul_factor: 1.0
